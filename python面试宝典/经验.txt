@@ -1,0 +1,66 @@
+for i in range(0,int((size/2)))[::-1]:
+后面【：：-1】那么i从最后一个数开始
+==list.reverse()
+
+inf 表示无穷大
+
+tile(A, reps): 构造一个矩阵，通过A重复reps次得到!!!!!!!!!!
+
+argsort() 函数返回的是数组值从小到大的索引值
+argsort([0.5,3.5,2.7])----->[0,2,1]
+
+ptsInClust = dataSet[nonzero(clusterAssment[:,0].A == cent)[0]]   # 去第一列等于cent的所有列
+'''
+clusterAssment[:,0].A == cent [True,False,True,.......]
+nonzero ---》(array([2, 3, 4, 5], dtype=int64), array([0, 0, 0, 0], dtype=int64))
+nonzero(clusterAssment[:,0].A == cent)[0]----》[2 3 4 5]
+dateSet[[2,3,4,5]]---->dateSet[2]\dateSet[2]\.....
+'''
+
+
+mat(array(list))
+
+
+
+list=[1]
+list+=[2]
+print(list)
+输出[1, 2]
+
+math.log(8,2)=3
+即2**3=8
+
+字典操作：
+dic={'a':2,'b':4,'c':3}
+for k,v in dic.items():
+    print(k)
+
+dex=np.zeros((3,3))
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 4. 0.]]
+
+ M=[([0]*(3)) for i in range(4)]
+ [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+M=[[0]*3]*4
+[[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+
+a,b=divmod(7,2)
+a=7/2
+b=7%2
+
+ord 转换asc2码
+pow（10,2）求10 的平方
+pow（10,1/2）求100 的开方
+
+
+
+最小角回归法 :    是一个适用于高维数据的回归算法，其主要的优点有：
+
+　　　　1）特别适合于特征维度n 远高于样本数m的情况。
+　　　　2）算法的最坏计算复杂度和最小二乘法类似，但是其计算速度几乎和前向选择算法一样
+　　　　3）可以产生分段线性结果的完整路径，这在模型的交叉验证中极为有用
+
+　　　　主要的缺点是：
+　　　　由于LARS的迭代方向是根据目标的残差而定，所以该算法对样本的噪声极为敏感。
